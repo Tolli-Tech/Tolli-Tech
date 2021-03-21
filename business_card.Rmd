@@ -1,0 +1,38 @@
+---
+email: "tolli.technologies@gmail.com"
+address: Venmo @Kyle-C-Tolliver
+person: 
+  - name: Kyle Tolliver
+    title: Freelance Developer <br/> Tolli Technologies
+    phone: "+1 805-367-6723"
+    url: kctolli.github.io
+    repeat: 12
+googlefonts: "Righteous" # feel free to try other fonts at https://fonts.google.com
+paperwidth: 8.5in
+paperheight: 11in
+cols: 4
+rows: 3
+output: pagedown::business_card
+---
+
+<!-- if you prefer you can create cards in markdown instead of YAML declaration -->
+
+<!-- ::: {.wrapper data-repeat="12"} -->
+<!-- [Another Name]{slot="name"} -->
+<!-- [Another Title]{slot="title"} -->
+<!-- [someone@rstudio.com]{slot="email"} -->
+<!-- ::: -->
+
+
+<!-- if you prefer black text on white background, set eval=TRUE on the chunk below -->
+
+```{css, eval=TRUE}
+.wrapper {
+  color: black;
+  background-color: white;
+  border: 1px dotted black;
+}
+.coordinates {
+  color: #333;
+}
+```
